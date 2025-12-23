@@ -1,3 +1,8 @@
+# frozen_string_literal: true
+
+# The base controller for our Ruby on Rails application.
+# Shared behavior and/or configuration should be defined here,
+# so that all inheriting controllers can behave the same.
 class ApplicationController < ActionController::Base
   # Only allow modern browsers supporting webp images, web push, badges, import maps, CSS nesting, and CSS :has.
   allow_browser versions: :modern

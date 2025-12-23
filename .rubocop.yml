@@ -1,0 +1,11 @@
+# Define the plugins we want to enable for RuboCop
+plugins:
+  - rubocop-capybara
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-rspec_rails
+
+# Configuration that affects all Cops
+AllCops:
+  NewCops: enable # Enable new cops by default when upgrading versions.
